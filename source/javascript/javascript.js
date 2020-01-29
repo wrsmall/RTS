@@ -14,8 +14,8 @@ $(document).ready(function () {
     $('#rotationNumber').change(questionTwoAns = () => {
         let rotation=$("#rotationNumber").val();
         let wordScramble = $("#rotationWord").val().split("");
-        let length=$("#rotationNumber").length
-        let ans= wordScramble.slice((length-1)-rotation).concat(wordScramble.slice(0,(length-1)-rotation));
+        let length=$("#rotationNumber").length-1
+        let ans= wordScramble.slice(length-rotation).concat(wordScramble.slice(0,length-rotation));
         $('#scrambled').html(ans);
     });
 
