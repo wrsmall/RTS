@@ -1,0 +1,28 @@
+.bg-rts{
+    background-color: #59585D;
+}
+.myfont{
+    font-family: 'Khand', sans-serif;
+}
+.w-95{
+    width: 95%;
+}
+.center{
+    margin: auto;
+}
+.sigmargin{
+    margin-top: 4rem;
+}
+.sigfont{
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.w-30{
+    width: 30%;
+}
+.tab{
+    text-indent: 5%;
+}
+hr{
+    background-color: #79C145;
+    ;
+}
