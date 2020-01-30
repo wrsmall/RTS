@@ -37,7 +37,6 @@ $(document).ready(function () {
     });
     /*If the user decides to add a number to array*/
     $('#sortNumber').keyup(newNum = () => {
-        startTest()
         questionOneAns()
     });
 
