@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#testNumber").prop("disabled", true);
     
     $('#sortNumber').keyup(startTest = () => {
-        if (!($('#sortNumber.val()')) {
+        if (!($('#sortNumber').val())) {
             $("#testNumber").prop("disabled", true);
         } else {
             $('#testNumber').prop('disabled', false);
